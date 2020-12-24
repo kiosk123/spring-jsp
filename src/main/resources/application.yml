@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+    static-path-pattern: /static/** # 클라이언트에서 정적 리소스 요청 url
+  web:
+    resources:
+      static-locations:
+      - classpath:/static/   # 클라이언트에서 요청한 정적리소스의 실제 경로 
+logging:
+  level:
+    com.study: debug 
