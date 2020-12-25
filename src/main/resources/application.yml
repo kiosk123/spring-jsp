@@ -7,7 +7,7 @@ spring:
   web:
     resources:
       static-locations:
-      - classpath:/static/   # 클라이언트에서 요청한 정적리소스의 실제 경로 
+      - classpath:static/   # 클라이언트에서 요청한 정적리소스의 실제 경로 
 logging:
   level:
     com.study: debug 
