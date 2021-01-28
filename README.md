@@ -9,7 +9,7 @@
 ## 설명
  - 그레이들에 jsp를 사용하기 위한 라이브러리 의존성을 추가한다.
  
-```
+```gradle
 providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
 implementation 'javax.servlet:jstl:1.2'
 ```
@@ -19,7 +19,7 @@ implementation 'javax.servlet:jstl:1.2'
     - 경로설정 방법 [링크](https://atoz-develop.tistory.com/entry/spring-boot-web-mvc-static-resources)
     - 정적 파일 다운로드는 다음 링크를 참조한다. [링크](https://programmer93.tistory.com/44)
  
-```
+```yml
 spring:
   mvc:
     view:
